@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Navegador */
+.nav {
+    color: white;
+    font-size: 18px;
+}
+
+.nav img {
+    height: 100px;
+}
+
+.nav li {
+    margin: 15px;
+}
+
+.nav a {
+    color: white;
+}
+
+/* Main */
+
+body {
+    background-color: rgba(231, 231, 231, 0.747);
+    background-image: url(../resources/BGimagenSs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main h1 {
+    padding: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+}
+
+.main h2 {
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+
+}
+
+.main p {
+    margin: 50px;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: solid;
+    color: white;
+}
+
+.main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.main div img {
+    height: 250px;
+    margin: 10px;
+}
+
+
+/* Inicio de footer */
+.footer1 img {
+    height: 150px;
+    width: 325px;
+}
+
+.footer2 img {
+    height: 200px;
+    width: 200px;
+}
+
+.footer1 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.sfooter2 {
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+}
+
+.sfooter2 p {
+    color: white;
+    margin: 10px;
+}
+
+.sfooter2 h4 {
+    color: white;
+    margin: 50px;
+}
+
+.sfooter2 h3 {
+    color: white;
+    margin: 50px;
+    text-align: center;
+}
+
+/* fin de footer */
+/* Historia seccion */
+.h-section1 {
+    text-align: left;
+    padding: 30px;
+}
+
+.h-section1 h1 {
+    padding: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.h-section1 p {
+    margin: 40px;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: solid;
+}
+
+/* no se me centran las imagenes */
+.h-section1 img {
+    align-content: center;
+}
+
+/* Seccion Gastronomia */
+
+.p-gastronomico {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.p-gastronomico h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin: 15px;
+    font-size: 50px;
+}
+
+.p-gastronomico h2 {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.p-gastronomico img {
+    width: 500px;
+}
+
+.p-gastronomico p {
+    margin: 50px;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: solid;
+}
+
+/* Fin gastronomico */
+
+/* Inicio Destacado */
+/* no puedo alinear la imagen al centro :( */
+.d-temporada a img {
+    align-items: center;
+    width: 800px;
+    height: 600px;
+}
+
+.d-temporada h2 {
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.d-temporada p {
+    margin: 50px;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: solid;
+}
+
+/* Inicio Pagina Precauciones */
+
+.precauciones-main {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+    font-size: 50px;
+}
+
+.precauciones-main h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 50px;
+}
+
+.precauciones-main h2 {
+    text-align: left;
+}
+
+.div-precauciones p {
+    font-size: 20px;
+    text-transform: none;
+}
+
+/* fuentes posibles 
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Playfair Display', serif;
+*/

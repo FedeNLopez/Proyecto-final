@@ -51,10 +51,11 @@ body {
 
 .main p {
     margin: 50px;
-    text-align: left;
+    text-align: center;
     font-size: 25px;
     text-decoration: solid;
     color: white;
+
 }
 
 .main div {
